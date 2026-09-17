@@ -4,7 +4,7 @@ Official implementation for ICASSP 2027.
 
 ![AdaRank-Rec main diagram](main_diagram.png)
 
-PyTorch reproduction of **Request-Adaptive Low-Rank Fusion for Efficient Generative Multimodal Recommendation**.
+PyTorch implementation of **Request-Adaptive Low-Rank Fusion for Efficient Generative Multimodal Recommendation**.
 
 Implemented: ordered shared Q/K prefixes; fixed-width value aggregation; eight-token context adapter; residual-quantized 4-token SIDs; sufficient-rank labels; budget-conditioned controller; straight-through Gumbel routing; per-budget dual ascent; the paper's 10/3/5 training stages; chronological 5-core Amazon splits; and HR/NDCG@10 candidate scoring utilities.
 
